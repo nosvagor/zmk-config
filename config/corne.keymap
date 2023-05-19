@@ -28,7 +28,7 @@
     &kp LC(BSPC) &kp SPACE &kp AT    &kp HASH  &kp DOLLAR    &kp f6             &trans &kp AMPS &kp PERCENT &kp PIPE &trans &trans
     &kp BSPC     &kp N1    &kp N2    &kp N3    &kp N4        &kp N5             &kp N6 &kp N7   &kp N8      &kp N9   &kp N0 &trans
     &kp LC(Y)    &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(LS(V)) &kp LC(V)          &trans &kp DOT  &kp SQT     &trans   &trans &trans
-                                     &trans    &trans        &trans             &trans &trans   &k& LS(RETURN)
+                                     &trans    &trans        &trans             &trans &trans   &kp LS(RETURN)
                     >;
             };
     // ================================================================================================================================

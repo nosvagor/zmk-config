@@ -37,33 +37,10 @@
             raise_layer {
                     bindings = <
     &trans  &trans   &kp EXCL &kp UNDER &kp QMARK &trans              &trans    &kp PLUS  &kp STAR &kp CARET &trans   &trans
-    &kp LT  &kp LPAR &kp LBRC &kp LBKT  &kp MINUS &kp FSLH            &kp BSLH  &kp EQUAL &kp RBKT &kp RBRC  &kp RPAR &kp GT
+    &trans  &kp LPAR &kp LBRC &kp LBKT  &kp MINUS &kp FSLH            &kp BSLH  &kp EQUAL &kp RBKT &kp RBRC  &kp RPAR &trans
     &trans  &trans   &trans   &kp LT    &kp GT    &kp SEMI            &kp COLON &kp GRAVE &kp DQT  &trans    &trans   &trans
                               &trans    &trans    &kp TILDE           &trans    &trans    &trans
                     >;
             };
     // ================================================================================================================================
-
-    // ================================================================================================================================
-            adjust_layer {
-                    bindings = <
-    &trans &trans   &kp PG_DN &kp PG_UP &kp PG_UP &trans                &trans &kp f10 &kp f11 &kp f12 &trans &trans
-    &trans &kp HOME &kp LEFT  &kp DOWN  &kp RIGHT &kp LC(PG_DN)         &trans &kp f10 &kp f11 &kp f12 &trans &trans
-    &trans &kp f1   &kp f2    &kp f3    &kp f4    &kp f5                &kp f6 &kp f7  &kp f8  &kp f9  &trans &trans
-                              &trans    &trans    &trans                &trans &trans  &trans
-
-                    >;
-                };
-    // ================================================================================================================================
-    };
-};
-
-/ {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
 };

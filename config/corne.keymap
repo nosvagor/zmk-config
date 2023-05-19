@@ -16,7 +16,7 @@
     &kp TAB       &kp Q    &kp W &kp R &kp F &kp X               &kp J     &kp P &kp U &kp V &kp RS(RCTRL) &kp DEL
     &kp ESC       &kp A    &kp S &kp E &kp T &kp G               &kp Y     &kp N &kp I &kp O &kp L         &kp BSPC
     &kp LS(LCTRL) &kp LGUI &kp B &kp C &kp D &kp COMMA           &kp DOT   &kp H &kp M &kp K &kp Z         &kp RALT
-                           &kp LCTRL   &mo 1 &kp LSHFT           &kp SPACE &mo 2 &kp RETURN
+                           &kp LCTRL   &mo 1 &kp LSHFT           &kp SPACE &mo 2 &kp RET
                     >;
             };
 
@@ -25,7 +25,7 @@
     &kp LC(BSPC) &kp SPACE &kp AT    &kp HASH  &kp DOLLAR    &kp f6             &trans &kp AMPS &kp PERCENT &kp PIPE &trans &trans
     &kp BSPC     &kp N1    &kp N2    &kp N3    &kp N4        &kp N5             &kp N6 &kp N7   &kp N8      &kp N9   &kp N0 &trans
     &kp LC(Y)    &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(LS(V)) &kp LC(V)          &trans &kp DOT  &kp SQT     &trans   &trans &trans
-                                     &trans    &trans        &trans             &trans &trans   &kp LS(RETURN)
+                                     &trans    &trans        &trans             &trans &trans   &kp LS(RET)
                     >;
             };
 

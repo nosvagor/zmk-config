@@ -24,7 +24,7 @@
                     bindings = <
     &kp LGUI(BSPC) &kp SPACE &kp AT    &kp HASH  &kp DOLLAR    &kp F6             &trans &kp AMPS &kp PERCENT &kp PIPE &trans &trans
     &kp BSPC     &kp N1    &kp N2    &kp N3    &kp N4        &kp N5             &kp N6 &kp N7   &kp N8      &kp N9   &kp N0 &trans
-    &kp LGUI(Y)    &kp LC(Z) &kp LGUI(X) &kp LGUI(C) &kp LGUI(LS(V)) &kp LGUI(V)          &trans &kp SQT  &kp DQT     &trans   &trans &trans
+    &kp LGUI(Y)    &kp LGUI(Z) &kp LGUI(X) &kp LGUI(C) &kp LGUI(LS(V)) &kp LGUI(V)          &trans &kp SQT  &kp DQT     &trans   &trans &trans
                                      &trans    &trans        &trans             &trans &trans   &kp LS(RET)
                     >;
             };
